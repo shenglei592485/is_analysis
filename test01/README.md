@@ -54,7 +54,7 @@ stop
 @enduml
 ```
 业务流程图如下：<br>
-![](p1.png)<br>
+![image](p1.png)<br>
 
 **流程说明：**
 教务处：安排考试->考试安排表；
@@ -107,4 +107,4 @@ stop
 @enduml
 ```
 业务流程图如下：<br>
-![](p2.png)<br>
+![image](p2.png)<br>
