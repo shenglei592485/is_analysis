@@ -92,9 +92,9 @@ Lend_借阅信息类  <.. admin_管理员:可进行所有操作
 
 ### 1.3. 类图说明：
 ```
-Lender_借阅者有两个子类分别是teacher和student
 BookDescribeInfo_图书描述是BookInfo_图书信息类的一部分
-lender和admin可以对图书信息类、预借信息类、借阅信息类进行操作但是操作的权限不同
+Lender_借阅者有两个子类分别是teacher子类，student子类
+lender和admin能够对图书信息类、预借信息类、借阅信息类进行操作但是操作的权限不同
 比如：lender只能对BookInfo进行select操作，但是管理员能对其进行更多的删改添加操作
 ```
 
@@ -102,7 +102,7 @@ lender和admin可以对图书信息类、预借信息类、借阅信息类进行
 
 
 ## 2. 图书管理系统的对象图
-### 2.1 类Reserve
+### 2.1 预借信息类
 #### 源码如下：
 ``` class
 @startuml
@@ -135,7 +135,7 @@ Reserve：预借信息类
 		get():获取预借信息
 ```
 
-### 2.2 类Lend
+### 2.2 借阅信息类
 #### 源码如下：
 ``` class
 @startuml
@@ -168,7 +168,7 @@ Lend：借阅信息类
 		delete()：删除一条借书记录
 		get():获取借书信息
 ```
-### 2.3 类Lender
+### 2.3 借阅者类
 #### 源码如下：
 ``` class
 @startuml
@@ -212,7 +212,7 @@ Lender：借阅者
 		findBook():查询图书信息
 ```
 
-### 2.4 类BookInfo
+### 2.4 图书信息类
 #### 源码如下：
 ``` class
 @startuml
@@ -245,7 +245,7 @@ BookInfo：图书信息类
 		updata():更新图书
 		setStatus():设置图书状态
 ```
-### 2.5 类BookDescribeInfo
+### 2.5 图书描述类
 #### 源码如下：
 ``` class
 @startuml
