@@ -21,7 +21,7 @@
 ## 2. 系统总体结构
 ![](image/结构图.png)
 
-界面设计参见：https://shenglei592485.github.io/is_analysis/test6/html/index.html
+界面设计参见：https://shenglei592485.github.io/is_analysis/test6/UI/index.html
     
 ## 3. 用例图设计 [源码](UseCase.puml)
 ![](image/UseCase.png)
@@ -33,11 +33,11 @@
 - ### [参见数据库设计](数据库设计.md)
 
 ## 6. 用例及界面详细设计
-- ### [“学生列表”用例](用例/学生列表.md),[界面](https://shenglei592485.github.io/is_analysis/test6/ui/index.html)
-- ### [“评定成绩”用例](用例/评定成绩.md),[界面](https://shenglei592485.github.io/is_analysis/test6/ui/评定成绩.html)
-- ### [“查看成绩”用例](用例/查看成绩.md),[界面](https://shenglei592485.github.io/is_analysis/test6/ui/学生个人信息查看页面.html)
-- ### [“修改密码”用例](用例/修改密码.md),[界面](https://shenglei592485.github.io/is_analysis/test6/ui/学生修改信息页面.html)
-- ### [“修改用户信息”用例](用例/修改用户信息.md),[界面](https://shenglei592485.github.io/is_analysis/test6/ui/学生修改信息页面.html)
-- ### [“查看用户信息”用例](用例/查看用户信息.md),[界面](https://shenglei592485.github.io/is_analysis/test6/ui/学生个人信息查看页面.html)
-- ### [“登出”用例](用例/登出.md),[界面](https://shenglei592485.github.io/is_analysis/test6/ui/index.html)
-- ### [“登录”用例](用例/登录.md),[界面](https://shenglei592485.github.io/is_analysis/test6/ui/登录界面.html)
+- ### [“学生列表”用例](用例/学生列表.md),[界面](https://shenglei592485.github.io/is_analysis/test6/UI/index.html)
+- ### [“评定成绩”用例](用例/评定成绩.md),[界面](https://shenglei592485.github.io/is_analysis/test6/UI/评定成绩.html)
+- ### [“查看成绩”用例](用例/查看成绩.md),[界面](https://shenglei592485.github.io/is_analysis/test6/UI/学生个人信息查看页面.html)
+- ### [“修改密码”用例](用例/修改密码.md),[界面](https://shenglei592485.github.io/is_analysis/test6/UI/学生修改信息页面.html)
+- ### [“修改用户信息”用例](用例/修改用户信息.md),[界面](https://shenglei592485.github.io/is_analysis/test6/UI/学生修改信息页面.html)
+- ### [“查看用户信息”用例](用例/查看用户信息.md),[界面](https://shenglei592485.github.io/is_analysis/test6/UI/学生个人信息查看页面.html)
+- ### [“登出”用例](用例/登出.md),[界面](https://shenglei592485.github.io/is_analysis/test6/UI/index.html)
+- ### [“登录”用例](用例/登录.md),[界面](https://shenglei592485.github.io/is_analysis/test6/UI/登录界面.html)
